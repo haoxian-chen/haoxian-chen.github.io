@@ -25,56 +25,46 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Header Fonts and Inheritance */
+/* Header Fonts */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
-  color: inherit; /* Ensure headers inherit the correct color */
-  transition: color 0.5s ease, background-color 0.5s ease;
+  transition: color 0.5s ease;
+  color: inherit; /* Inherit from body */
 }
 
-/* Ensure Lists Inherit Colors Properly */
+/* List Colors */
 ul, ol {
   color: inherit;
   transition: color 0.5s ease;
 }
 
+/* List Item Colors */
 ul li, ol li {
   color: inherit;
   transition: color 0.5s ease;
 }
 
-/* Handle <strong> Elements */
-strong {
-  color: #5188E0 !important; /* Force it to inherit the correct color */
-  transition: color 0.1s ease;
+/* Theme-Based Colors for <strong> */
+body.light-mode strong {
+  color: #5188E0; /* Custom color for light mode */
 }
 
-a {
-  color: #2B9BE0 !important; /* Force it to inherit the correct color */
-  transition: color 0.1s ease;
+body.dark-mode strong {
+  color: #90caf9; /* Custom color for dark mode */
 }
 
-
-/* Link Styles for Different Modes */
+/* Theme-Based Colors for Links <a> */
 body.light-mode a {
-  color: #002D72; /* Dark blue for light mode */
-  transition: color 0.5s ease;
+  color: #2B9BE0; /* Custom link color for light mode */
 }
 
 body.dark-mode a {
-  color: #90caf9; /* Light blue for dark mode */
+  color: #90caf9; /* Custom link color for dark mode */
+}
+
+/* Ensure Smooth Transitions for <strong> and <a> */
+strong, a {
   transition: color 0.5s ease;
-}
-
-/* Handle <strong> Inside Lists */
-body.light-mode ul li strong, 
-body.light-mode ol li strong {
-  color: black;
-}
-
-body.dark-mode ul li strong, 
-body.dark-mode ol li strong {
-  color: #90caf9;
 }
 
 /* Dark Mode Toggle Button */
