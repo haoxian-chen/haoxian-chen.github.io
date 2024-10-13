@@ -9,17 +9,11 @@
     justify-content: center; /* Center all content */
     align-items: center;
 }
-/* Group navigation links and dark mode toggle */
-#link-group {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Small gap between links and toggle */
-}
-
-/* Navigation links container */
+/* Keep all links and the toggle icon on one line */
 #myLinks {
-    display: flex;
+    display: inline-flex; /* Ensure links stay on the same line */
     align-items: center;
+    gap: 15px; /* Add a small gap between each item */
 }
 
 /* Hamburger icon */
@@ -43,7 +37,6 @@
     padding: 10px 9px;
     text-decoration: none;
     font-size: 17px;
-    margin-right: 10px; /* Adjust spacing between links */
   }
   
   /* Change the color of links on hover */
@@ -173,18 +166,16 @@
       }
    }
 
-/* Dark mode toggle icon next to the "Contact" button */
+/* Dark mode toggle icon styling */
 #theme-toggle {
-    display: inline-flex;
-    align-items: center;
     cursor: pointer;
 }
 
-/* Set a fixed size for the icon to avoid shifting */
+/* Ensure the icon stays the same size */
 #theme-toggle i {
     font-size: 1.5rem;
-    width: 24px; /* Ensure fixed width */
-    height: 24px; /* Ensure fixed height */
+    width: 24px;
+    height: 24px;
     transition: color 0.3s;
 }
 
@@ -202,12 +193,8 @@ body.dark-mode #theme-toggle i {
 
 /* Mobile view compatibility */
 @media screen and (max-width: 960px) {
-    #link-group {
-        flex-direction: column; /* Stack links and toggle icon */
-        text-align: center;
-    }
-
     #myLinks {
         display: block;
+        text-align: center; /* Center links on small screens */
     }
 }
