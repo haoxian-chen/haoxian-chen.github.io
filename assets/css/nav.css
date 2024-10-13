@@ -10,6 +10,7 @@
     justify-content: center;  /* Align buttons to the left, but apply padding */
     padding-left: 20%;  /* Adjust this value to move buttons to the right */
     box-sizing: border-box;
+    transition: background-color 0.5s ease;
 }
 
 /* Links and toggle button together */
@@ -177,6 +178,10 @@
    }
 
 
+.wrapper {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
 /* Dark mode toggle button */
 #theme-toggle {
     display: flex;
@@ -186,7 +191,7 @@
     height: 40px; /* Fixed height */
     margin-left: 15px;
     position: relative;
-    transition: color 0.3s, transform 0.2s;
+    transition: color 0.3s, transform 0.3s;
 }
 
 /* Consistent size and styling for icons */
@@ -199,7 +204,12 @@
     line-height: 24px; /* Ensure icon stays centered */
     text-align: center;
     display: inline-block;
-    transition: color 0.3s, transform 0.2s;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* Optional: Add slight scaling animation on icon */
+#theme-toggle:hover i {
+    transform: scale(1.2);  /* Slight scale effect on hover */
 }
 
 /* Light Mode - Black Icon */
