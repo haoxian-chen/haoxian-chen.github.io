@@ -87,3 +87,8 @@ body.light-mode #theme-toggle i {
 #theme-toggle:hover i {
   transform: scale(1.2);
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: inherit; /* Inherit the color from body */
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
