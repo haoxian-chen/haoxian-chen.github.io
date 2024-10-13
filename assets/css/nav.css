@@ -204,13 +204,13 @@
 
 /* Light Mode - Black Icon */
 body.light-mode #theme-toggle i {
-    color: #000;  /* Ensure it matches the design */
+    color: #fff;  /* Ensure it matches the design */
     content: "\f185"; /* Sun Icon */
 }
 
 /* Dark Mode - White Icon */
 body.dark-mode #theme-toggle i {
-    color: #000;
+    color: #fff;
     content: "\f186"; /* Moon Icon */
 }
 
