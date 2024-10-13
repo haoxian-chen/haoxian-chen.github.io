@@ -3,56 +3,85 @@
 
 @import "minimal-light";
 
-/* Default light mode */
+/* Default Light Mode */
 body.light-mode {
   background-color: #ffffff;
   color: #000000;
 }
 
-/* Dark mode */
+/* Dark Mode */
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
 
-#theme-toggle i {
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: color 0.3s;
+/* Transition for smoother switch */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a, span, strong, div {
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-body.light-mode #theme-toggle i {
-  color: #333;
-}
-
-body.dark-mode #theme-toggle i {
-  color: #bb86fc;
-}
-
-// Override the font family
-body {
-  font-family: 'Roboto', sans-serif;  // Change 'Roboto' to your desired font
-}
-
+/* Header Fonts */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;  // Customize header fonts if needed
+  font-family: 'Open Sans', sans-serif;
 }
 
+/* Override font family for body */
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
-/* Ensure <li> and <strong> elements transition colors */
+/* Dark Mode - Specific Adjustments */
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6 {
+  color: #ffffff; /* Ensure headers change color in dark mode */
+}
+
+body.dark-mode a {
+  color: #90caf9; /* Link color in dark mode */
+}
+
+body.light-mode a {
+  color: #002D72; /* Link color in light mode */
+}
+
+/* Ensure list items and <strong> elements respond to the theme */
 body.light-mode ul li, 
 body.light-mode ul li strong {
-    color: black;
-    transition: color 0.5s ease;
+  color: black;
 }
 
 body.dark-mode ul li, 
 body.dark-mode ul li strong {
-    color: white;
-    transition: color 0.5s ease;
+  color: white;
 }
 
-/* Optional: Style <strong> text differently in dark mode */
+/* Optional: Highlight <strong> in dark mode */
 body.dark-mode ul li strong {
-    color: #90caf9; /* Light blue to stand out in dark mode */
+  color: #90caf9;
+}
+
+/* Dark Mode Toggle Button */
+#theme-toggle i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.2s;
+}
+
+/* Dark Mode Icon Color */
+body.dark-mode #theme-toggle i {
+  color: #bb86fc;
+}
+
+/* Light Mode Icon Color */
+body.light-mode #theme-toggle i {
+  color: #333;
+}
+
+/* Optional Hover Effect on Icon */
+#theme-toggle:hover i {
+  transform: scale(1.2); /* Scale up slightly on hover */
 }
