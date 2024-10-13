@@ -6,8 +6,11 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">Short Bio</h2>
 
-I am currently a Physics Ph.D. candidate at [Spin-Ion Technologies](https://www.spin-ion.com/) and [Université Paris-Saclay](https://www.universite-paris-saclay.fr/), working under the mentorship of Dr. [Ravelosona dafiné](https://www.spin-ion.com/about-us/), the director of research [CNRS](https://www.cnrs.fr/fr) and CTO of [Spin-Ion Technologies](https://www.spin-ion.com/). My research involves magnetoelectric ("ME") materials for energy-efficient information technology and "ME" materials for data security in information technology using Multiferroics/Magneto-ionics/Surface charging, with a special focus on the boosting magneto-ionic effect using ion irradiation and implantation.
+I am currently a second year Ph.D. candidate at [the Department of Industrial Engineering & Operations Research](https://ieor.columbia.edu) at [Columbia University](https://www.columbia.edu), working under the mentorship of Prof. [Henry Lam](https://www.columbia.edu/~khl2114/) and Prof. [Wenpin Tang](https://www.columbia.edu/~wt2319/). Piror to that, I obtained my master's degree in Operations Research at Columbia and bachelor's degree in Applied Mathematics at [UCLA](https://www.ucla.edu).
 
+My current research interests focus on (i) generative models (LLMs and diffusion models), particularly on RLHF (ii) efficient
+uncertainty quantification. I am also broadly interested in developing efficient machine learning algorithms
+with guarantees. Previously, I worked on efficient transformers and random features with Prof. [Krzysztof Choromanski](https://research.google/people/krzysztofchoromanski/).
 
 {% include_relative _includes/news.md %}
 
