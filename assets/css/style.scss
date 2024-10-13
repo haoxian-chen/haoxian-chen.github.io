@@ -3,6 +3,25 @@
 
 @import "minimal-light";
 
+/* Default light mode styles */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  a {
+    color: #bb86fc; /* Change link color for dark mode */
+  }
+}
+
 // Override the font family
 body {
   font-family: 'Roboto', sans-serif;  // Change 'Roboto' to your desired font
