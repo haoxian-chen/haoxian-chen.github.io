@@ -3,7 +3,7 @@
 
 @import "minimal-light";
 
-/* Default Light Mode */
+/* Light Mode */
 body.light-mode {
   background-color: #ffffff;
   color: #000000;
@@ -20,29 +20,36 @@ body.dark-mode {
   transition: background-color 0.5s ease, color 0.5s ease !important;
 }
 
-/* Override font family for body */
+/* Override Font Family for Body */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Header Fonts */
+/* Header Fonts and Inheritance */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
-  color: inherit; /* Inherit the color from body */
-  transition: background-color 0.5s ease, color 0.5s ease;
+  color: inherit; /* Ensure headers inherit the correct color */
+  transition: color 0.5s ease, background-color 0.5s ease;
 }
 
-/* Ensure <li> Elements and List Content Inherit Colors */
+/* Ensure Lists Inherit Colors Properly */
 ul, ol {
-  color: inherit; /* Inherit from body */
-}
-
-ul li, ol li {
-  color: inherit; /* Ensure list items inherit color */
+  color: inherit;
   transition: color 0.5s ease;
 }
 
-/* Link Colors */
+ul li, ol li {
+  color: inherit;
+  transition: color 0.5s ease;
+}
+
+/* Handle <strong> Elements */
+strong {
+  color: inherit; /* Ensure strong text inherits the correct color */
+  transition: color 0.5s ease;
+}
+
+/* Link Styles for Different Modes */
 body.light-mode a {
   color: #002D72; /* Dark blue for light mode */
   transition: color 0.5s ease;
@@ -53,15 +60,15 @@ body.dark-mode a {
   transition: color 0.5s ease;
 }
 
-/* List and <strong> Text Colors */
+/* Handle <strong> Inside Lists */
 body.light-mode ul li strong, 
 body.light-mode ol li strong {
-  color: black; /* Strong text color in light mode */
+  color: black;
 }
 
 body.dark-mode ul li strong, 
 body.dark-mode ol li strong {
-  color: #90caf9; /* Strong text color in dark mode */
+  color: #90caf9;
 }
 
 /* Dark Mode Toggle Button */
