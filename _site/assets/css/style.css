@@ -155,15 +155,17 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
 
 /*# sourceMappingURL=style.css.map */
-/* Light mode (default) */
+/* Default light mode */
 body.light-mode { background-color: #ffffff; color: #000000; }
 
 /* Dark mode */
 body.dark-mode { background-color: #121212; color: #ffffff; }
 
-a { transition: color 0.3s; }
+#theme-toggle i { font-size: 1.5rem; cursor: pointer; transition: color 0.3s; }
 
-body.dark-mode a { color: #bb86fc; }
+body.light-mode #theme-toggle i { color: #333; }
+
+body.dark-mode #theme-toggle i { color: #bb86fc; }
 
 body { font-family: 'Roboto', sans-serif; }
 
