@@ -59,11 +59,15 @@
   <body> 
     <div class="topnav">
       <div id="myLinks">
-        <!-- Dark Mode Toggle Icon Next to Contact -->
-        <a href="javascript:void(0);" id="theme-toggle" class="normal">
-          <i class="fas fa-moon"></i>
-        </a>
-        {% include navigation.md %}      
+        {% for item in site.data.navigation.main %}
+          <a href="{{ item.url }}" class="normal">
+            {% if item.icon %}
+              <i class="fas fa-{{ item.icon }}"></i>
+            {% else %}
+              {{ item.title }}
+            {% endif %}
+          </a>
+        {% endfor %}
       </div>
     </div>
     
