@@ -1,12 +1,10 @@
 main:
 
   - title: "MallowsPO: Fine-Tune Your LLM with Preference Dispersions"
-    authors: Lei Zhou, Gabriela Figueroa-Miranda, <strong>Song Chen</strong>, Marc Neis, Ziheng Hu, Ruifeng Zhu, Yaqi Li, Michael Prömpers, Andreas Offenhäusser, Dirk Mayer
-    conference_short: Sens. Actuators B Chem.
-    conference: Sensors and Actuators B Chemical
-    pdf: ./assets/files/SSRN-id4328224.pdf
-    page: https://www.sciencedirect.com/science/article/abs/pii/S0925400523004458
-    bibtex: ./assets/files/flexible.txt
+    authors: Haoxian Chen, Hanyang Zhao, Henry Lam, David Yao, Wenpin Tang
+    conference_short: NeurIPS 2024 Pluralistic Alignment 
+    conference: Arxiv (short version accepted at NeurIPS 2024 Pluralistic Alignment)
+    pdf: ./assets/files/MallowsPO.pdf
 
   - title: Flexible multielectrode arrays based electrochemical aptasensor for glycated human serum albumin detection
     authors: Lei Zhou, Gabriela Figueroa-Miranda, <strong>Song Chen</strong>, Marc Neis, Ziheng Hu, Ruifeng Zhu, Yaqi Li, Michael Prömpers, Andreas Offenhäusser, Dirk Mayer
