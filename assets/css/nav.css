@@ -9,11 +9,17 @@
     justify-content: center; /* Center all content */
     align-items: center;
 }
-/* Links inside the topnav */
-.topnav #myLinks {
+/* Group navigation links and dark mode toggle */
+#link-group {
     display: flex;
     align-items: center;
-    gap: 15px; /* Space between links and icon */
+    gap: 10px; /* Small gap between links and toggle */
+}
+
+/* Navigation links container */
+#myLinks {
+    display: flex;
+    align-items: center;
 }
 
 /* Hamburger icon */
@@ -37,6 +43,7 @@
     padding: 10px 9px;
     text-decoration: none;
     font-size: 17px;
+    margin-right: 10px; /* Adjust spacing between links */
   }
   
   /* Change the color of links on hover */
@@ -195,8 +202,12 @@ body.dark-mode #theme-toggle i {
 
 /* Mobile view compatibility */
 @media screen and (max-width: 960px) {
+    #link-group {
+        flex-direction: column; /* Stack links and toggle icon */
+        text-align: center;
+    }
+
     #myLinks {
         display: block;
-        text-align: center;
     }
 }
