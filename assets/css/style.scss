@@ -3,23 +3,24 @@
 
 @import "minimal-light";
 
-/* Default light mode styles */
-body {
+/* Light mode (default) */
+body.light-mode {
   background-color: #ffffff;
   color: #000000;
-  font-family: 'Roboto', sans-serif;
 }
 
-/* Dark mode styles */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: #ffffff;
-  }
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
 
-  a {
-    color: #bb86fc; /* Change link color for dark mode */
-  }
+a {
+  transition: color 0.3s;
+}
+
+body.dark-mode a {
+  color: #bb86fc;
 }
 
 // Override the font family
