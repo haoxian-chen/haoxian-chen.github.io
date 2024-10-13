@@ -6,14 +6,14 @@
     z-index: 999;
     width: 100%;
     display: flex;
+    justify-content: center; /* Center all content */
     align-items: center;
-    justify-content: flex-end; /* Align items to the right */
 }
-
 /* Links inside the topnav */
 .topnav #myLinks {
-    display: flex; /* Ensure items stay in a row */
+    display: flex;
     align-items: center;
+    gap: 15px; /* Space between links and icon */
 }
 
 /* Hamburger icon */
@@ -32,7 +32,6 @@
   
   /* Style the links inside the navigation bar */
   .topnav a.normal {
-    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 10px 9px;
@@ -171,7 +170,6 @@
 #theme-toggle {
     display: inline-flex;
     align-items: center;
-    margin-left: 10px; /* Space between Contact and the toggle */
     cursor: pointer;
 }
 
@@ -180,7 +178,6 @@
     font-size: 1.5rem;
     width: 24px; /* Ensure fixed width */
     height: 24px; /* Ensure fixed height */
-    text-align: center;
     transition: color 0.3s;
 }
 
@@ -196,25 +193,10 @@ body.dark-mode #theme-toggle i {
     content: "\f186"; /* FontAwesome moon icon */
 }
 
-/* Prevent shifting of other buttons */
-.topnav a.normal {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-    color: #f2f2f2;
-    padding: 10px 9px;
-    font-size: 17px;
-    margin-right: 10px;
-}
-
 /* Mobile view compatibility */
 @media screen and (max-width: 960px) {
-    .topnav #myLinks {
+    #myLinks {
         display: block;
-        text-align: left;
-    }
-
-    #theme-toggle {
-        float: none;
+        text-align: center;
     }
 }
