@@ -174,25 +174,28 @@
    }
 
 
-/* Ensure consistent width and height for the dark mode toggle */
+/* Dark mode toggle button */
 #theme-toggle {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;  /* Fixed width to avoid shifts */
+    width: 40px;  /* Fixed width to avoid layout shifts */
     height: 40px; /* Fixed height */
     margin-left: 15px;
+    position: relative;
 }
 
-/* Icon size and alignment */
+/* Consistent size and styling for icons */
 #theme-toggle i {
-    font-size: 24px;  /* Same size for both icons */
-    width: 24px;
-    height: 24px;
-    line-height: 24px;
+    font-family: 'Font Awesome 5 Free';  /* Ensure icon consistency */
+    font-weight: 900;  /* Use the same weight for both icons */
+    font-size: 24px;   /* Fixed font size for both icons */
+    width: 24px;       /* Fixed width */
+    height: 24px;      /* Fixed height */
+    line-height: 24px; /* Ensure icon stays centered */
+    text-align: center;
     display: inline-block;
     transition: color 0.3s, transform 0.2s;
-    text-align: center;
 }
 
 /* Light Mode - Black Icon */
