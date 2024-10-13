@@ -3,6 +3,7 @@
 
 @import "minimal-light";
 
+
 /* Default Light Mode */
 body.light-mode {
   background-color: #ffffff;
@@ -15,14 +16,9 @@ body.dark-mode {
   color: #ffffff;
 }
 
-/* Transition for smoother switch */
-body, h1, h2, h3, h4, h5, h6, p, ul, li, a, span, strong, div {
-  transition: background-color 0.5s ease, color 0.5s ease;
-}
-
-/* Header Fonts */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+/* Global Transition for All Elements */
+* {
+  transition: background-color 0.5s ease, color 0.5s ease !important;
 }
 
 /* Override font family for body */
@@ -30,25 +26,31 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Dark Mode - Specific Adjustments */
+/* Header Fonts */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Dark Mode - Header and Text Colors */
 body.dark-mode h1, 
 body.dark-mode h2, 
 body.dark-mode h3, 
 body.dark-mode h4, 
 body.dark-mode h5, 
 body.dark-mode h6 {
-  color: #ffffff; /* Ensure headers change color in dark mode */
+  color: #ffffff;
 }
 
+/* Link Colors */
 body.dark-mode a {
-  color: #90caf9; /* Link color in dark mode */
+  color: #90caf9;
 }
 
 body.light-mode a {
-  color: #002D72; /* Link color in light mode */
+  color: #002D72;
 }
 
-/* Ensure list items and <strong> elements respond to the theme */
+/* List and <strong> Text Colors */
 body.light-mode ul li, 
 body.light-mode ul li strong {
   color: black;
@@ -59,7 +61,7 @@ body.dark-mode ul li strong {
   color: white;
 }
 
-/* Optional: Highlight <strong> in dark mode */
+/* Optional: Highlight <strong> Text in Dark Mode */
 body.dark-mode ul li strong {
   color: #90caf9;
 }
@@ -81,7 +83,7 @@ body.light-mode #theme-toggle i {
   color: #333;
 }
 
-/* Optional Hover Effect on Icon */
+/* Optional Hover Effect */
 #theme-toggle:hover i {
-  transform: scale(1.2); /* Scale up slightly on hover */
+  transform: scale(1.2);
 }
