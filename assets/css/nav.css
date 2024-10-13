@@ -6,16 +6,16 @@
     z-index: 999;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center;  /* Center all links */
     align-items: center;
-  }
+}
 
-
-  .topnav #myLinks {
+/* Links and toggle button together */
+#myLinks {
     display: inline-flex;
     align-items: center;
     gap: 15px;
-  }
+}
 
 .topnav a.icon {
     display: none;
@@ -27,14 +27,16 @@
     margin-left:30%;
   }
   
-  /* Style the links inside the navigation bar */
-  .topnav a.normal {
+/* Ensure each link has the same style */
+.topnav a.normal {
     color: #f2f2f2;
     text-align: center;
     padding: 10px 9px;
     text-decoration: none;
     font-size: 17px;
-  }
+    display: inline-block;
+    white-space: nowrap; /* Prevent shifting due to wrapping */
+}
 
 /* Styling for the dark mode toggle */
 .topnav a.normal i {
@@ -135,7 +137,8 @@
 
    @media print, screen and (max-width: 960px) { 
     .topnav #myLinks {
-        display: none;
+        display: block;
+        text-align: center;
       }
 
       .topnav a.normal {
@@ -171,33 +174,37 @@
    }
 
 
-/* Dark mode toggle styling */
+/* Ensure consistent width and height for the dark mode toggle */
 #theme-toggle {
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;  /* Fixed width to avoid shifts */
+    height: 40px; /* Fixed height */
     margin-left: 15px;
 }
 
-/* Dark mode toggle icon styling */
+/* Icon size and alignment */
 #theme-toggle i {
-    font-size: 1.5rem;
-    width: 24px;  /* Ensure consistent width */
-    height: 24px; /* Ensure consistent height */
-    line-height: 24px; 
-    text-align: center;
+    font-size: 24px;  /* Same size for both icons */
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
     display: inline-block;
     transition: color 0.3s, transform 0.2s;
+    text-align: center;
 }
 
 /* Light Mode - Black Icon */
 body.light-mode #theme-toggle i {
-    color: #333;
-    content: "\f185";  /* FontAwesome sun icon */
+    color: #000;  /* Ensure it matches the design */
+    content: "\f185"; /* Sun Icon */
 }
 
 /* Dark Mode - White Icon */
 body.dark-mode #theme-toggle i {
     color: #fff;
-    content: "\f186";  /* FontAwesome moon icon */
+    content: "\f186"; /* Moon Icon */
 }
 
 /* Mobile view compatibility */
