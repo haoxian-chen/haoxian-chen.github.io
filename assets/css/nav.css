@@ -6,9 +6,9 @@
     z-index: 999;
     width: 100%;
     display: flex;
-    justify-content: flex-start;  /* Align links to the left */
     align-items: center;
-    padding-left: 12%; /* Adjust this value to align with the content below */
+    padding: 0 12%;  /* Adjust the padding to align with the content below */
+    box-sizing: border-box;  /* Ensure padding is included in width calculations */
 }
 
 /* Links and toggle button together */
@@ -16,11 +16,13 @@
     display: inline-flex;
     align-items: center;
     gap: 15px;
+    flex-grow: 1;  /* Let the links take up remaining space */
+    justify-content: center;  /* Keep them centered */
 }
 
-.wrapper {
-    margin-left: 12%; /* Match this with the padding-left from .topnav */
-    padding-top: 60px; /* Add padding to avoid overlap with the fixed topnav */
+/* Ensure the dark mode button stays on the right */
+.theme-toggle-container {
+    margin-left: auto;  /* Push the toggle button to the far right */
 }
 
 .topnav a.icon {
@@ -214,11 +216,6 @@ body.light-mode #theme-toggle i {
 body.dark-mode #theme-toggle i {
     color: #fff;
     content: "\f186"; /* Moon Icon */
-}
-
-.theme-toggle-container {
-    margin-left: auto; /* Push toggle to the far right */
-    padding-right: 12%; /* Align with the right edge of the content */
 }
 
 /* Mobile view compatibility */
