@@ -1,20 +1,25 @@
 main:
 
-  - title: "Contact"
-    url: ./#contact 
-    right: true 
-
-  - title: "Conferences & Events"
-    url: ./#conferences
-
-  - title: "Publications"
-    url: ./#publications
-
-  - title: "Projects"
-    url: ./#projects
+  - title: "Bio"
+    url: ./#about-me
 
   - title: "News"
     url: ./#news
 
-  - title: "Bio"
-    url: ./#about-me
+  - title: "Projects"
+    url: ./#projects
+
+  - title: "Publications"
+    url: ./#publications
+
+  - title: "Conferences & Events"
+    url: ./#conferences
+
+  - title: "Contact"
+    url: ./#contact
+    right: true
+
+  - title: "Dark Mode"
+    url: "#"
+    icon: moon
+    right: true
