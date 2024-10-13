@@ -7,8 +7,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;  /* Keep links and toggle centered */
-    padding: 0 12%;  /* Adjust this if necessary */
+    justify-content: flex-start;  /* Align buttons to the left, but apply padding */
+    padding-left: 5%;  /* Adjust this value to move buttons to the right */
     box-sizing: border-box;
 }
 
