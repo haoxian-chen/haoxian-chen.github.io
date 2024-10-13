@@ -29,22 +29,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
   transition: color 0.5s ease;
-  color: inherit; /* Inherit from body */
 }
 
-/* List Colors */
+/* Ensure Lists Inherit Colors Properly */
 ul, ol {
-  color: inherit;
   transition: color 0.5s ease;
 }
 
-/* List Item Colors */
 ul li, ol li {
-  color: inherit;
   transition: color 0.5s ease;
 }
 
-/* Theme-Based Colors for <strong> */
+/* Colors for <strong> Elements */
 body.light-mode strong {
   color: #5188E0; /* Custom color for light mode */
 }
@@ -53,7 +49,7 @@ body.dark-mode strong {
   color: #90caf9; /* Custom color for dark mode */
 }
 
-/* Theme-Based Colors for Links <a> */
+/* Colors for <a> Links */
 body.light-mode a {
   color: #2B9BE0; /* Custom link color for light mode */
 }
@@ -62,7 +58,7 @@ body.dark-mode a {
   color: #90caf9; /* Custom link color for dark mode */
 }
 
-/* Ensure Smooth Transitions for <strong> and <a> */
+/* Smooth Transition for <strong> and <a> */
 strong, a {
   transition: color 0.5s ease;
 }
