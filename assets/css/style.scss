@@ -32,24 +32,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Dark Mode - Header and Text Colors */
-body.light-mode h1, 
-body.light-mode h2, 
-body.light-mode h3, 
-body.light-mode h4, 
-body.light-mode h5, 
-body.light-mode h6 {
-  color: black;
-  transition: color 0.5s ease;
-}
-
 body.dark-mode h1, 
 body.dark-mode h2, 
 body.dark-mode h3, 
 body.dark-mode h4, 
 body.dark-mode h5, 
 body.dark-mode h6 {
-  color: white;
-  transition: color 0.5s ease;
+  color: #ffffff;
 }
 
 /* Link Colors */
