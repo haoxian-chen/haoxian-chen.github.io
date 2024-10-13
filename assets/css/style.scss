@@ -29,19 +29,6 @@ body.dark-mode #theme-toggle i {
   color: #bb86fc;
 }
 
-.topnav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.topnav .icon {
-  margin-left: auto;
-  margin-right: 15px;
-  cursor: pointer;
-}
-
 // Override the font family
 body {
   font-family: 'Roboto', sans-serif;  // Change 'Roboto' to your desired font
