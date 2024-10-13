@@ -1,4 +1,4 @@
-/* Add a black background color to the top navigation */
+/* Top navigation bar styling */
 .topnav {
     background-color: #002D72;
     overflow: hidden;
@@ -7,12 +7,13 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: flex-end; /* Align items to the right */
 }
 
-
+/* Links inside the topnav */
 .topnav #myLinks {
-    display: inline;
-    flex-grow: 1;
+    display: flex; /* Ensure items stay in a row */
+    align-items: center;
 }
 
 /* Hamburger icon */
@@ -166,21 +167,23 @@
       }
    }
 
-/* Ensure consistent size for the dark/light mode icons */
-#theme-toggle i {
-    font-size: 1.5rem; /* Set a fixed size for consistency */
-    width: 24px;       /* Ensure the same width for both icons */
-    height: 24px;      /* Ensure the same height for both icons */
-    text-align: center;
-    transition: color 0.3s, transform 0.3s;
-}
-
-/* Positioning the dark mode toggle next to "Contact" */
+/* Dark mode toggle icon next to the "Contact" button */
 #theme-toggle {
-    display: inline-block;
-    margin-left: 10px; /* Small margin to separate from "Contact" */
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px; /* Space between Contact and the toggle */
     cursor: pointer;
 }
+
+/* Set a fixed size for the icon to avoid shifting */
+#theme-toggle i {
+    font-size: 1.5rem;
+    width: 24px; /* Ensure fixed width */
+    height: 24px; /* Ensure fixed height */
+    text-align: center;
+    transition: color 0.3s;
+}
+
 
 /* Styling for light and dark modes */
 body.light-mode #theme-toggle i {
@@ -193,13 +196,16 @@ body.dark-mode #theme-toggle i {
     content: "\f186"; /* FontAwesome moon icon */
 }
 
-/* Ensure other buttons don't shift */
+/* Prevent shifting of other buttons */
 .topnav a.normal {
-    display: inline-block; /* Prevent layout shifts */
-    float: none;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 10px 9px;
+    font-size: 17px;
     margin-right: 10px;
 }
-
 
 /* Mobile view compatibility */
 @media screen and (max-width: 960px) {
@@ -209,6 +215,6 @@ body.dark-mode #theme-toggle i {
     }
 
     #theme-toggle {
-        float: right;
+        float: none;
     }
 }
