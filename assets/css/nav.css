@@ -186,6 +186,7 @@
     height: 40px; /* Fixed height */
     margin-left: 15px;
     position: relative;
+    transition: color 0.3s, transform 0.2s;
 }
 
 /* Consistent size and styling for icons */
