@@ -3,7 +3,6 @@
 
 @import "minimal-light";
 
-
 /* Default Light Mode */
 body.light-mode {
   background-color: #ffffff;
@@ -29,32 +28,40 @@ body {
 /* Header Fonts */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
+  color: inherit; /* Inherit the color from body */
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
+/* Ensure <li> Elements and List Content Inherit Colors */
+ul, ol {
+  color: inherit; /* Inherit from body */
+}
+
+ul li, ol li {
+  color: inherit; /* Ensure list items inherit color */
+  transition: color 0.5s ease;
+}
 
 /* Link Colors */
-body.dark-mode a {
-  color: #90caf9;
+body.light-mode a {
+  color: #002D72; /* Dark blue for light mode */
+  transition: color 0.5s ease;
 }
 
-body.light-mode a {
-  color: #002D72;
+body.dark-mode a {
+  color: #90caf9; /* Light blue for dark mode */
+  transition: color 0.5s ease;
 }
 
 /* List and <strong> Text Colors */
-body.light-mode ul li, 
-body.light-mode ul li strong {
-  color: black;
+body.light-mode ul li strong, 
+body.light-mode ol li strong {
+  color: black; /* Strong text color in light mode */
 }
 
-body.dark-mode ul li, 
-body.dark-mode ul li strong {
-  color: white;
-}
-
-/* Optional: Highlight <strong> Text in Dark Mode */
-body.dark-mode ul li strong {
-  color: #90caf9;
+body.dark-mode ul li strong, 
+body.dark-mode ol li strong {
+  color: #90caf9; /* Strong text color in dark mode */
 }
 
 /* Dark Mode Toggle Button */
@@ -77,9 +84,4 @@ body.light-mode #theme-toggle i {
 /* Optional Hover Effect */
 #theme-toggle:hover i {
   transform: scale(1.2);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: inherit; /* Inherit the color from body */
-  transition: background-color 0.5s ease, color 0.5s ease;
 }
