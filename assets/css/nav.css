@@ -2,14 +2,19 @@
 .topnav {
     background-color: #002D72;
     overflow: hidden;
-	position:fixed;
-	z-index:999;
-    width:100%;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* Center the entire nav content */
+    align-items: center;
   }
 
 
   .topnav #myLinks {
-    display: inline;
+    display: inline-flex;  /* Inline-flex ensures correct order */
+    align-items: center;
+    gap: 15px;  /* Space between buttons */
   }
 
 .topnav a.icon {
@@ -24,7 +29,6 @@
   
   /* Style the links inside the navigation bar */
   .topnav a.normal {
-    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 10px 9px;
@@ -161,7 +165,12 @@
    }
 
 
-/* Dark mode toggle icon styling */
+/* Dark mode toggle styling */
+#theme-toggle {
+    cursor: pointer;
+}
+
+/* Icon size and transition */
 #theme-toggle i {
     font-size: 1.5rem;
     transition: color 0.3s;
@@ -170,16 +179,16 @@
 /* Light Mode - Black Icon */
 body.light-mode #theme-toggle i {
     color: #333;
-    content: "\f185"; /* FontAwesome sun icon */
+    content: "\f185";  /* FontAwesome sun icon */
 }
 
 /* Dark Mode - White Icon */
 body.dark-mode #theme-toggle i {
     color: #fff;
-    content: "\f186"; /* FontAwesome moon icon */
+    content: "\f186";  /* FontAwesome moon icon */
 }
 
-/* Mobile view adjustments */
+/* Mobile view compatibility */
 @media screen and (max-width: 960px) {
     #myLinks {
         display: block;
