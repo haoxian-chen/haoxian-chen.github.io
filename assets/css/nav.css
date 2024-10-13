@@ -1,27 +1,19 @@
-/* Top navigation bar styling */
+/* Add a black background color to the top navigation */
 .topnav {
     background-color: #002D72;
     overflow: hidden;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    display: flex;
-    justify-content: center; /* Center all content */
-    align-items: center;
-}
-/* Keep all links and the toggle icon on one line */
-#myLinks {
-    display: inline-flex; /* Ensure links stay on the same line */
-    align-items: center;
-    gap: 15px; /* Add a small gap between each item */
-}
+	position:fixed;
+	z-index:999;
+    width:100%;
+  }
 
-/* Hamburger icon */
+
+  .topnav #myLinks {
+    display: inline;
+  }
+
 .topnav a.icon {
-    display: block;
-    cursor: pointer;
-    padding: 10px;
-    margin-left: auto;
+    display: none;
 }
 
   .topnav img {
@@ -32,6 +24,7 @@
   
   /* Style the links inside the navigation bar */
   .topnav a.normal {
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 10px 9px;
@@ -165,7 +158,6 @@
         margin-right:0;
       }
    }
-
 /* Dark mode toggle icon styling */
 #theme-toggle {
     cursor: pointer;
