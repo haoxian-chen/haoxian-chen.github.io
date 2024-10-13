@@ -31,8 +31,8 @@ linkedin: https://www.linkedin.com/in/haoxian-rain-chen-233789179/
 
 # Images 
 avatar: ./assets/img/avatar.jpg
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+# favicon: ./assets/img/favicon.png
+# favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnotes
 # Footnote
