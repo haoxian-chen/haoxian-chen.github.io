@@ -7,7 +7,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;  /* Align buttons to the left, but apply padding */
+    justify-content: center;  /* Align buttons to the left, but apply padding */
     padding-left: 5%;  /* Adjust this value to move buttons to the right */
     box-sizing: border-box;
 }
