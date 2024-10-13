@@ -29,13 +29,7 @@ I am currently a Physics Ph.D. candidate at [Spin-Ion Technologies](https://www.
 ## Grants and Fellowships
 - **Marie Skłodowska-Curie Actions (MSCA) Individual Fellowship**, 2020-2024, Early Stage Researcher (ESR), Grant Number: 864415
 
-## Professional Affiliations
-- **Marie Curie Alumni Association Member**, 2021 - Present
-- **The European Magnetism Association (EMA) Member**, 2021 - Present
-
 
 {% include_relative _includes/news.md %}
 
 {% include_relative _includes/publications.md %}
-
-{% include_relative _includes/conference.md %}
