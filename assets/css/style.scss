@@ -3,64 +3,56 @@
 
 @import "minimal-light";
 
-/* Light Mode */
-body.light-mode {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-/* Dark Mode */
-body.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
-}
-
-/* Global Transition for All Elements */
-* {
-  transition: background-color 0.5s ease, color 0.5s ease !important;
-}
-
-/* Override Font Family for Body */
+/* Define CSS Variables for Theme Colors */
 body {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --link-color: #2B9BE0;
+  --strong-color: #5188E0;
+  transition: background-color 0.5s ease, color 0.5s ease;
   font-family: 'Roboto', sans-serif;
 }
 
-/* Header Fonts */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  transition: color 0.5s ease;
+/* Dark Mode Overrides */
+body.dark-mode {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --link-color: #90caf9;
+  --strong-color: #90caf9;
 }
 
-/* Ensure Lists Inherit Colors Properly */
+/* Apply Variables to Elements */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  transition: color 0.5s ease;
+  color: var(--text-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
 ul, ol {
   transition: color 0.5s ease;
+  color: var(--text-color);
 }
 
 ul li, ol li {
   transition: color 0.5s ease;
+  color: var(--text-color);
 }
 
-/* Colors for <strong> Elements */
-body.light-mode strong {
-  color: #5188E0; /* Custom color for light mode */
-}
-
-body.dark-mode strong {
-  color: #90caf9; /* Custom color for dark mode */
-}
-
-/* Colors for <a> Links */
-body.light-mode a {
-  color: #2B9BE0; /* Custom link color for light mode */
-}
-
-body.dark-mode a {
-  color: #90caf9; /* Custom link color for dark mode */
-}
-
-/* Smooth Transition for <strong> and <a> */
-strong, a {
+/* Strong Text with Theme-based Color */
+strong {
   transition: color 0.5s ease;
+  color: var(--strong-color);
+}
+
+/* Link Colors with Smooth Transition */
+a {
+  transition: color 0.5s ease;
+  color: var(--link-color);
 }
 
 /* Dark Mode Toggle Button */
@@ -70,14 +62,12 @@ strong, a {
   transition: color 0.3s, transform 0.2s;
 }
 
-/* Dark Mode Icon Color */
-body.dark-mode #theme-toggle i {
-  color: #bb86fc;
-}
-
-/* Light Mode Icon Color */
 body.light-mode #theme-toggle i {
   color: #333;
+}
+
+body.dark-mode #theme-toggle i {
+  color: #bb86fc;
 }
 
 /* Optional Hover Effect */
