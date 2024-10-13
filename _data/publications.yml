@@ -7,9 +7,6 @@ main:
     pdf: ./assets/files/SSRN-id4328224.pdf
     page: https://www.sciencedirect.com/science/article/abs/pii/S0925400523004458
     bibtex: ./assets/files/flexible.txt
-    image: ./assets/files/1-s2.0-S0925400523004458-ga1_lrg.jpg
-    citation: sf-0AGoAAAAJ:qjMakFHDy7sC
-    notes: Published
 
   - title: Flexible multielectrode arrays based electrochemical aptasensor for glycated human serum albumin detection
     authors: Lei Zhou, Gabriela Figueroa-Miranda, <strong>Song Chen</strong>, Marc Neis, Ziheng Hu, Ruifeng Zhu, Yaqi Li, Michael Prömpers, Andreas Offenhäusser, Dirk Mayer
