@@ -18,8 +18,3 @@ main:
   - title: "Contact"
     url: ./#contact
     right: true
-
-  - title: "Dark Mode"
-    url: "#"
-    icon: moon
-    right: true
