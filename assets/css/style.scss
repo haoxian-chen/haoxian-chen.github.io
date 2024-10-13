@@ -2,3 +2,12 @@
 ---
 
 @import "minimal-light";
+
+// Override the font family
+body {
+  font-family: 'Roboto', sans-serif;  // Change 'Roboto' to your desired font
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;  // Customize header fonts if needed
+}
