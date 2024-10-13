@@ -159,4 +159,32 @@
       }
    }
    
+/* Ensure the dark mode icon is visible */
+#theme-toggle {
+  display: block;  /* Make sure it is not hidden */
+  margin-left: auto;
+}
 
+#theme-toggle i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+/* Light mode styling */
+body.light-mode #theme-toggle i {
+  color: #f2f2f2;
+}
+
+/* Dark mode styling */
+body.dark-mode #theme-toggle i {
+  color: #bb86fc;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 960px) {
+  #theme-toggle {
+    float: right;
+    margin-right: 5%;
+  }
+}
