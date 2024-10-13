@@ -1,14 +1,8 @@
-# songchen.github.io
-Song Chen's homepage
+# Rain0713.github.io
+Haoxian Chen's homepage
 
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/yaoyao-liu.github.io/blob/main/LICENSE)
 
-This is the latest version of my homepage's source code. Feel free to use and share.
-<br />
-
-The academic homepage consists of two parts:
-- [Academic Homepage](https//:songchen.science) used for the academic resume.
--[Personal Blog](https//songchen.science/blog) used as a Technical Memorandum.
 
 ### Using Locally with Jekyll
 
