@@ -12690,3 +12690,21 @@ body.dark-mode a {
 body.light-mode a {
     color: #002D72; /* Dark blue for light mode */
 }
+
+/* Ensure <li> and <strong> elements transition colors */
+body.light-mode ul li, 
+body.light-mode ul li strong {
+    color: black;
+    transition: color 0.5s ease;
+}
+
+body.dark-mode ul li, 
+body.dark-mode ul li strong {
+    color: white;
+    transition: color 0.5s ease;
+}
+
+/* Optional: Style <strong> text differently in dark mode */
+body.dark-mode ul li strong {
+    color: #90caf9; /* Light blue to stand out in dark mode */
+}
