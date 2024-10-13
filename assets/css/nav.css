@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;  /* Align buttons to the left, but apply padding */
-    padding-left: 15%;  /* Adjust this value to move buttons to the right */
+    padding-left: 20%;  /* Adjust this value to move buttons to the right */
     box-sizing: border-box;
 }
 
