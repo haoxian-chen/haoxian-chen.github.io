@@ -7,17 +7,16 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 0 12%;  /* Adjust the padding to align with the content below */
-    box-sizing: border-box;  /* Ensure padding is included in width calculations */
+    justify-content: center;  /* Keep links and toggle centered */
+    padding: 0 12%;  /* Adjust this if necessary */
+    box-sizing: border-box;
 }
 
 /* Links and toggle button together */
 #myLinks {
     display: inline-flex;
     align-items: center;
-    gap: 15px;
-    flex-grow: 1;  /* Let the links take up remaining space */
-    justify-content: center;  /* Keep them centered */
+    gap: 15px;  /* Spacing between each item */
 }
 
 
