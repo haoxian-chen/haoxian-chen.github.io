@@ -20,10 +20,6 @@
     justify-content: center;  /* Keep them centered */
 }
 
-/* Ensure the dark mode button stays on the right */
-.theme-toggle-container {
-    margin-left: auto;  /* Push the toggle button to the far right */
-}
 
 .topnav a.icon {
     display: none;
