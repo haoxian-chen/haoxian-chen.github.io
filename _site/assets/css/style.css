@@ -155,12 +155,16 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
 
 /*# sourceMappingURL=style.css.map */
-/* Default light mode styles */
-body { background-color: #ffffff; color: #000000; font-family: 'Roboto', sans-serif; }
+/* Light mode (default) */
+body.light-mode { background-color: #ffffff; color: #000000; }
 
-/* Dark mode styles */
-@media (prefers-color-scheme: dark) { body { background-color: #121212; color: #ffffff; }
-  a { color: #bb86fc; /* Change link color for dark mode */ } }
+/* Dark mode */
+body.dark-mode { background-color: #121212; color: #ffffff; }
+
+a { transition: color 0.3s; }
+
+body.dark-mode a { color: #bb86fc; }
+
 body { font-family: 'Roboto', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; }
