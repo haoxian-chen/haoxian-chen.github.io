@@ -1,6 +1,6 @@
 main:
 
-  - title: Flexible multielectrode arrays based electrochemical aptasensor for glycated human serum albumin detection
+  - title: "MallowsPO: Fine-Tune Your LLM with Preference Dispersions"
     authors: Lei Zhou, Gabriela Figueroa-Miranda, <strong>Song Chen</strong>, Marc Neis, Ziheng Hu, Ruifeng Zhu, Yaqi Li, Michael Prömpers, Andreas Offenhäusser, Dirk Mayer
     conference_short: Sens. Actuators B Chem.
     conference: Sensors and Actuators B Chemical
