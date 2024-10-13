@@ -12636,3 +12636,57 @@ body.night .twikoo code {
     background-color: #373d48;
   }
 }
+
+/* Default Light Mode */
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Ensure text inside these elements also changes */
+h1, h2, h3, h4, h5, h6,
+p, a, span, div, position, autocolor {
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+/* Text color adjustments per mode */
+body.light-mode h1, 
+body.light-mode h2, 
+body.light-mode h3, 
+body.light-mode h4, 
+body.light-mode h5, 
+body.light-mode h6,
+body.light-mode p, 
+body.light-mode a, 
+body.light-mode span, 
+body.light-mode div {
+    color: black;
+}
+
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6,
+body.dark-mode p, 
+body.dark-mode a, 
+body.dark-mode span, 
+body.dark-mode div {
+    color: white;
+}
+
+/* Styling links to stand out in dark mode */
+body.dark-mode a {
+    color: #90caf9; /* Light blue for visibility */
+}
+
+body.light-mode a {
+    color: #002D72; /* Dark blue for light mode */
+}
