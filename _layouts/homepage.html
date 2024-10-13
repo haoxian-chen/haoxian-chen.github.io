@@ -219,26 +219,25 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script>
-      const toggleButton = document.querySelector('.fa-moon');
-      
-      // Check for saved theme in localStorage
+      const toggleButton = document.querySelector('#theme-toggle i');
       const savedTheme = localStorage.getItem('theme');
+    
+      // Set the saved theme on page load
       if (savedTheme) {
         document.body.classList.add(savedTheme);
         toggleButton.className = savedTheme === 'dark-mode' ? 'fas fa-sun' : 'fas fa-moon';
       }
     
-      // Add an event listener to the toggle button
-      toggleButton.parentElement.addEventListener('click', (event) => {
-        event.preventDefault(); // Prevents the page from scrolling to the top
+      // Handle the click event to switch modes
+      document.querySelector('#theme-toggle').addEventListener('click', (event) => {
+        event.preventDefault();  // Prevent page jump
     
-        // Toggle between dark and light modes
         document.body.classList.toggle('dark-mode');
         document.body.classList.toggle('light-mode');
     
         const currentTheme = document.body.classList.contains('dark-mode') ? 'dark-mode' : 'light-mode';
         toggleButton.className = currentTheme === 'dark-mode' ? 'fas fa-sun' : 'fas fa-moon';
-        localStorage.setItem('theme', currentTheme); // Save the current theme
+        localStorage.setItem('theme', currentTheme);  // Save the theme
       });
     </script>
 
