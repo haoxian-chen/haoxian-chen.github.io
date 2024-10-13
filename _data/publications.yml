@@ -1,13 +1,13 @@
 main:
 
-  - title: MallowsPO: Fine-Tune Your LLM with Preference Dispersions
-    authors: Haoxian Chen*, Hanyang Zhao*, Henry Lam, David Yao, Wenpin Tang
-    conference_short: Adv. Mater. Interfaces
-    conference: Under review (short version accepted at NeurIPS 2024 Pluralistic Alignment)
-    pdf: ./assets/files/MallowsPO.pdf
-    page: https://www.sciencedirect.com/science/article/abs/pii/S0925400521013800?via%3Dihub
-    bibtex: ./assets/files/multi.txt
-    image: ./assets/files/multi.jpg
+  # - title: MallowsPO: Fine-Tune Your LLM with Preference Dispersions
+  #   authors: Haoxian Chen*, Hanyang Zhao*, Henry Lam, David Yao, Wenpin Tang
+  #   conference_short: Adv. Mater. Interfaces
+  #   conference: Under review (short version accepted at NeurIPS 2024 Pluralistic Alignment)
+  #   pdf: ./assets/files/MallowsPO.pdf
+  #   page: https://www.sciencedirect.com/science/article/abs/pii/S0925400521013800?via%3Dihub
+  #   bibtex: ./assets/files/multi.txt
+  #   image: ./assets/files/multi.jpg
 
   - title: Magneto‐Ionics in Annealed W/CoFeB/HfO2 Thin Films
     authors: Rohit Pachat, Djoudi Ourdani, Maria‐andromachi Syskaki, Alessio Lamperti, Subhajit Roy, <strong>Song Chen</strong>, Adriano Di Pietro, Ludovic Largeau, Roméo Juge, Maryam Massouras, Cristina Balan, Johannes Wilhelmus van der Jagt, Guillaume Agnus, Yves Roussigné, Mihai Gabor, Salim Mourad Chérif, Gianfranco Durin, Shimpei Ono, Jürgen Langer, Damien Querlioz, Dafiné Ravelosona, Mohamed Belmeguenai, Liza Herrera Diez
