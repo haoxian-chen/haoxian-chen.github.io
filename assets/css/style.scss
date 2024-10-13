@@ -49,6 +49,12 @@ strong {
   transition: color 0.5s ease;
 }
 
+a {
+  color: inherit !important; /* Force it to inherit the correct color */
+  transition: color 0.5s ease;
+}
+
+
 /* Link Styles for Different Modes */
 body.light-mode a {
   color: #002D72; /* Dark blue for light mode */
