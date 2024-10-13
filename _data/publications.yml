@@ -2,7 +2,7 @@ main:
 
   - title: "MallowsPO: Fine-Tune Your LLM with Preference Dispersions"
     authors: Haoxian Chen, Hanyang Zhao, Henry Lam, David Yao, Wenpin Tang
-    conference_short: |
+    conference_short: >
       NeurIPS 2024
       Pluralistic Alignment
     conference: Arxiv (short version accepted at NeurIPS 2024 Pluralistic Alignment)
