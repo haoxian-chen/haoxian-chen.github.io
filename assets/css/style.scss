@@ -3,7 +3,7 @@
 
 @import "minimal-light";
 
-/* Light mode (default) */
+/* Default light mode */
 body.light-mode {
   background-color: #ffffff;
   color: #000000;
@@ -15,11 +15,17 @@ body.dark-mode {
   color: #ffffff;
 }
 
-a {
+#theme-toggle i {
+  font-size: 1.5rem;
+  cursor: pointer;
   transition: color 0.3s;
 }
 
-body.dark-mode a {
+body.light-mode #theme-toggle i {
+  color: #333;
+}
+
+body.dark-mode #theme-toggle i {
   color: #bb86fc;
 }
 
