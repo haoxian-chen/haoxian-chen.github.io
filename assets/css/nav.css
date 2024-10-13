@@ -210,7 +210,7 @@ body.light-mode #theme-toggle i {
 
 /* Dark Mode - White Icon */
 body.dark-mode #theme-toggle i {
-    color: #fff;
+    color: #000;
     content: "\f186"; /* Moon Icon */
 }
 
