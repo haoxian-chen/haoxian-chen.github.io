@@ -6,6 +6,12 @@ main:
     image: ./assets/files/prompt_dispersion_with_examples_1.png
     pdf: ./assets/files/MallowsPO.pdf
 
+  - title: "Pseudo-Bayesian Optimization"
+    authors: Haoxian Chen, Henry Lam
+    conference: Arxiv
+    #image: ./assets/files/prompt_dispersion_with_examples_1.png
+    pdf: ./assets/files/PseudoBO_v2.pdf 
+
   # - title: Flexible multielectrode arrays based electrochemical aptasensor for glycated human serum albumin detection
   #   authors: Lei Zhou, Gabriela Figueroa-Miranda, <strong>Song Chen</strong>, Marc Neis, Ziheng Hu, Ruifeng Zhu, Yaqi Li, Michael Prömpers, Andreas Offenhäusser, Dirk Mayer
   #   conference_short: Sens. Actuators B Chem.
