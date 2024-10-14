@@ -3,6 +3,7 @@ main:
   - title: "MallowsPO: Fine-Tune Your LLM with Preference Dispersions"
     authors: Haoxian Chen, Hanyang Zhao, Henry Lam, David Yao, Wenpin Tang
     conference: Arxiv (short version accepted at NeurIPS 2024 Pluralistic Alignment)
+    image: ./assets/files/prompt_dispersion_with_examples.png
     pdf: ./assets/files/MallowsPO.pdf
 
   # - title: Flexible multielectrode arrays based electrochemical aptasensor for glycated human serum albumin detection
