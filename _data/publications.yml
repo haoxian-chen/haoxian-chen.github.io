@@ -9,7 +9,7 @@ main:
   - title: "Pseudo-Bayesian Optimization"
     authors: Haoxian Chen, Henry Lam
     conference: Arxiv
-    image: ./assets/files/PseudoBO.png
+    image: ./assets/files/PseudoBO_web.png
     pdf: ./assets/files/PseudoBO_v2.pdf 
 
   # - title: Flexible multielectrode arrays based electrochemical aptasensor for glycated human serum albumin detection
