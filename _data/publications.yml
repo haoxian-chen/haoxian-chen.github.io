@@ -17,6 +17,12 @@ main:
     conference: ICML 2022
     image: ./assets/files/mask.png
     pdf: ./assets/files/effi_masked_att.pdf
+    
+  - title: "Hybrid random features"
+    authors: Krzysztof Choromanski*, Haoxian Chen*, Han Lin*, Yuanzhe Ma*, Arijit Sehanobish*, Deepali Jain, Michael S Ryoo, Jake Varley, Andy Zeng, Valerii Likhosherstov, Dmitry Kalashnikov, Vikas Sindhwani, Adrian Weller
+    conference: ICLR 2022 
+    image: ./assets/files/hrf.png
+    pdf: https://openreview.net/pdf?id=EMigfE6ZeS
 
   # - title: Flexible multielectrode arrays based electrochemical aptasensor for glycated human serum albumin detection
   #   authors: Lei Zhou, Gabriela Figueroa-Miranda, <strong>Song Chen</strong>, Marc Neis, Ziheng Hu, Ruifeng Zhu, Yaqi Li, Michael Prömpers, Andreas Offenhäusser, Dirk Mayer
