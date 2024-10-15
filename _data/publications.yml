@@ -28,7 +28,7 @@ main:
     authors: Haoxian Chen, Ziyi Huang, Henry Lam, Huajie Qian, Haofeng Zhang
     conference: AISTATS 2021
     image: ./assets/files/PI.png
-    page: http://proceedings.mlr.press/v130/chen21b
+    pdf: http://proceedings.mlr.press/v130/chen21b
 
   - title: "Demystifying orthogonal monte carlo and beyond"
     authors: Han Lin*, Haoxian Chen*, Krzysztof M Choromanski, Tianyi Zhang, Clement Laroche
