@@ -24,6 +24,18 @@ main:
     image: ./assets/files/hrf.png
     pdf: https://openreview.net/pdf?id=EMigfE6ZeS
 
+  - title: "Learning Prediction Intervals for Regression: Generalization and Calibration"
+    authors: Haoxian Chen, Ziyi Huang, Henry Lam, Huajie Qian, Haofeng Zhang
+    conference: AISTATS 2021
+    image: ./assets/files/PI.png
+    page: http://proceedings.mlr.press/v130/chen21b
+
+  - title: "Demystifying orthogonal monte carlo and beyond"
+    authors: Han Lin*, Haoxian Chen*, Krzysztof M Choromanski, Tianyi Zhang, Clement Laroche
+    conference: NeurIPS 2020
+    image: ./assets/files/omc.png
+    pdf: https://proceedings.neurips.cc/paper/2020/file/5bce843dd76db8c939d5323dd3e54ec9-Paper.pdf
+
   # - title: Flexible multielectrode arrays based electrochemical aptasensor for glycated human serum albumin detection
   #   authors: Lei Zhou, Gabriela Figueroa-Miranda, <strong>Song Chen</strong>, Marc Neis, Ziheng Hu, Ruifeng Zhu, Yaqi Li, Michael Prömpers, Andreas Offenhäusser, Dirk Mayer
   #   conference_short: Sens. Actuators B Chem.
