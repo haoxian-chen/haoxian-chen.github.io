@@ -1,5 +1,11 @@
 main:
 
+  - title: "Prediction-Enhanced Monte Carlo: A Machine Learning View on Control Variate"
+    authors: Fengpei Li*, Haoxian Chen*, Jiahe Lin*, Arkin Gupta, Xiaowei Tan, Gang Xu, Yuriy Nevmyvaka, Agostino Capponi, Henry Lam
+    conference: Arxiv
+    image: ./assets/files/pemc.png
+    pdf: https://arxiv.org/pdf/2412.11257
+    
   - title: "MallowsPO: Fine-Tune Your LLM with Preference Dispersions"
     authors: Haoxian Chen*, Hanyang Zhao*, Henry Lam, David Yao, Wenpin Tang
     conference: Arxiv (short version accepted at NeurIPS 2024 Pluralistic Alignment)
