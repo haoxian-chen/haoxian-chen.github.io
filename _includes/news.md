@@ -3,7 +3,7 @@
 <h2 style="margin: 30px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[Dec., 2024]</strong> 🚀 Exciting News! A research paper from my Summer 2024 internship at Morgan Stanley, where I explored using machine learning to enhance Monte Carlo, has been published. Check it out <a href="https://arxiv.org/abs/2412.11257">here</a>.</li>
+<li><strong>[Dec., 2024]</strong> 🚀 Exciting News! A paper from my research internship in Summer 2024, where I explored using machine learning to enhance Monte Carlo, has been public online. Check it out <a href="https://arxiv.org/abs/2412.11257">here</a>.</li>
 <li><strong>[Nov. 16th, 2024]</strong> We are presenting <a href="https://arxiv.org/abs/2405.14953">MallowsPO</a> at <a href="https://pluralistic-alignment.github.io">NeurIPS 2024 Pluralistic Alignment Workshop</a>.</li>
 <li><strong>[Oct. 2024]</strong> A short version of our recent paper <a href="https://arxiv.org/abs/2405.14953">MallowsPO</a> is accepted by <a href="https://pluralistic-alignment.github.io">NeurIPS 2024 Pluralistic Alignment Workshop</a>.</li>
 <li><strong>[Jun. 2023]</strong> Present my paper on <a href="https://arxiv.org/abs/2310.09766">PseudoBO</a> in <a href="https://indico.math.cnrs.fr/event/10541/">RL4SN workshop</a>.</li>
