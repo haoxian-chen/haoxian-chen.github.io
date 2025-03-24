@@ -3,7 +3,7 @@ main:
   - title: "Fine-Tuning Diffusion Generative Models via Rich Preference Optimization"
     authors: Hanyang Zhao*, Haoxian Chen*, Yucheng Guo*, Genta Indra Winata, Tingting Ou, Ziyu Huang, David D Yao, Wenpin Tang
     conference: Arxiv
-    image: ./assets/files/rpo.PNG
+    image: ./assets/files/rpo.png
     pdf: https://arxiv.org/pdf/2503.11720
     
   - title: "Prediction-Enhanced Monte Carlo: A Machine Learning View on Control Variate"
