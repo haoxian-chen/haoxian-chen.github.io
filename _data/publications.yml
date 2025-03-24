@@ -5,6 +5,12 @@ main:
     conference: Arxiv
     image: ./assets/files/rpo.png
     pdf: https://arxiv.org/pdf/2503.11720
+
+  - title: "Score as Action: Fine-Tuning Diffusion Generative Models by Continuous-time Reinforcement Learning"
+    authors: Hanyang Zhao, Haoxian Chen, Ji Zhang, David D Yao, Wenpin Tang
+    conference: Arxiv
+    image: ./assets/files/ctrl.png
+    pdf: https://arxiv.org/pdf/2502.01819
     
   - title: "Prediction-Enhanced Monte Carlo: A Machine Learning View on Control Variate"
     authors: Fengpei Li*, Haoxian Chen*, Jiahe Lin*, Arkin Gupta, Xiaowei Tan, Gang Xu, Yuriy Nevmyvaka, Agostino Capponi, Henry Lam
