@@ -8,7 +8,7 @@ main:
 
   - title: "Score as Action: Fine-Tuning Diffusion Generative Models by Continuous-time Reinforcement Learning"
     authors: Hanyang Zhao, Haoxian Chen, Ji Zhang, David D Yao, Wenpin Tang
-    conference: Arxiv
+    conference: ICML 2025
     image: ./assets/files/ctrl.png
     pdf: https://arxiv.org/pdf/2502.01819
     

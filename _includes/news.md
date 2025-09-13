@@ -3,6 +3,7 @@
 <h2 style="margin: 30px 0px 10px;">News</h2>
 
 <ul>
+<li><strong>[May, 2025]</strong> <a href="https://arxiv.org/pdf/2502.01819">Score as Action</a> is accepted by ICML 2025.</li>
 <li><strong>[Mar., 2025]</strong> Discover <a href="https://arxiv.org/abs/2503.11720">RPO</a> — our new method that fine-tunes T2I models with rich feedback to improve preferences and performance 🚀.</li>
 <li><strong>[Mar., 2025]</strong> A short version of our recent paper <a href="https://arxiv.org/abs/2502.01819">Scores as Actions</a> is accepted by <a href="https://delta-workshop.github.io/">ICLR 2025 DeLTa Workshop</a>.</li>
 <li><strong>[Jan., 2025]</strong> MallowsPO is accepted by <a href="https://openreview.net/forum?id=d8cnezVcaW">ICLR 2025</a>.</li>  
