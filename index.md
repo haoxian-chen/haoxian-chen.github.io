@@ -6,10 +6,11 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">Short Bio</h2>
 
-I am an Applied Scientist at Amazon. I received my Ph.D. in [Operations Research](https://ieor.columbia.edu) from [Columbia University](https://www.columbia.edu), where I was fortunate to be advised by Prof. [Henry Lam](https://www.columbia.edu/~khl2114/) and Prof. [Wenpin Tang](https://www.columbia.edu/~wt2319/). Piror to that, I earned my master's degree in Operations Research from Columbia and bachelor's degree in Applied Mathematics from [UCLA](https://www.ucla.edu).
+I am an Applied Scientist at Amazon, where I focus on Agentic AI and time series foundation models.
 
-My research interests primarily lie in (i) generative models, including large language models (LLMs) and diffusion models, with a focus on RLHF; and (ii) efficient uncertainty quantification. I am also interested in designing efficient machine learning algorithms
-with theoretical guarantees. Previously, I worked on efficient transformers and random features with Prof. [Krzysztof Choromanski](https://research.google/people/krzysztofchoromanski/).
+I received my Ph.D. in [Operations Research](https://ieor.columbia.edu) from [Columbia University](https://www.columbia.edu), where I was fortunate to be advised by Prof. [Henry Lam](https://www.columbia.edu/~khl2114/) and Prof. [Wenpin Tang](https://www.columbia.edu/~wt2319/). Prior to that, I completed a B.S. in Applied Mathematics from [UCLA](https://www.ucla.edu).
+
+My research interests center on generative modeling (LLMs and diffusion models) with a focus on RLHF and alignment, as well as efficient uncertainty quantification. I am particularly motivated by designing algorithms that combine efficiency with rigorous theoretical guarantees. Previously, I collaborated with Prof. [Krzysztof Choromanski](https://research.google/people/krzysztofchoromanski/) on efficient transformers and random features.
 
 {% include_relative _includes/news.md %}
 
