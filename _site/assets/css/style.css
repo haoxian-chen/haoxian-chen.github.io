@@ -170,6 +170,15 @@ ul, ol { transition: color 0.5s ease; color: var(--text-color); }
 
 ul li, ol li { transition: color 0.5s ease; color: var(--text-color); }
 
+.news-list { display: grid; gap: 0.32rem; margin: 0 0 1.25rem; }
+
+.news-item { display: grid; grid-template-columns: 5.7rem minmax(0, 1fr); column-gap: 0.45rem; align-items: baseline; line-height: 1.4; }
+
+.news-date { color: var(--strong-color); font-weight: 600; white-space: nowrap; }
+
+.news-text { min-width: 0; }
+
+@media (max-width: 480px) { .news-item { grid-template-columns: 5.35rem minmax(0, 1fr); column-gap: 0.4rem; } }
 /* Strong Text with Theme-based Color */
 strong { transition: color 0.5s ease; color: var(--strong-color); }
 
