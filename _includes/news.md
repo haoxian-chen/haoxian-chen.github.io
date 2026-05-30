@@ -4,6 +4,14 @@
 
 <div class="news-list">
   <div class="news-item">
+    <span class="news-date">[May 2026]</span>
+    <span class="news-text">Our paper <strong>Anchored FLoE</strong>, with my team at Amazon, has been accepted to the <strong>ECML PKDD 2026</strong> Industry Track and selected for an <strong>Oral Presentation</strong> (top 5% of submissions)!</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">[May 2026]</span>
+    <span class="news-text">Selected as a <strong>Silver Reviewer</strong> for <strong>ICML 2026</strong>.</span>
+  </div>
+  <div class="news-item">
     <span class="news-date">[Jan 2026]</span>
     <span class="news-text">Our paper <a href="https://arxiv.org/pdf/2505.11737">ToKUR</a> is accepted to <strong>ICLR 2026</strong>!</span>
   </div>

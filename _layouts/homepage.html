@@ -94,6 +94,14 @@
           line-height: 30px;
           height: 30px;
         }
+        #theme-toggle {
+          -webkit-tap-highlight-color: transparent;
+        }
+        #theme-toggle:focus,
+        #theme-toggle:active {
+          outline: none;
+          -webkit-tap-highlight-color: transparent;
+        }
     </style>
     
     <div class="wrapper">
@@ -234,7 +242,8 @@
       // Handle the click event to switch themes
       document.querySelector('#theme-toggle').addEventListener('click', (event) => {
         event.preventDefault(); // Prevent page jump
-    
+        event.currentTarget.blur(); // Clear lingering focus/tap highlight on mobile
+
         document.body.classList.toggle('dark-mode');
         document.body.classList.toggle('light-mode');
     
