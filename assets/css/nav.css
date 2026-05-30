@@ -48,10 +48,13 @@
     transition: color 0.3s;
 }
 
-  /* Change the color of links on hover */
-  .topnav a.normal:hover {
-    background-color: #ddd;
-    color: black;
+  /* Change the color of links on hover (only on devices with a real hover pointer,
+     so touch devices don't get a sticky gray box after tapping) */
+  @media (hover: hover) and (pointer: fine) {
+    .topnav a.normal:hover {
+      background-color: #ddd;
+      color: black;
+    }
   }
   
   /* Add a color to the active/current link */
@@ -206,9 +209,11 @@
     transition: color 0.3s, transform 0.3s;
 }
 
-/* Optional: Add slight scaling animation on icon */
-#theme-toggle:hover i {
-    transform: scale(1.2);  /* Slight scale effect on hover */
+/* Optional: Add slight scaling animation on icon (hover-capable devices only) */
+@media (hover: hover) and (pointer: fine) {
+    #theme-toggle:hover i {
+        transform: scale(1.2);  /* Slight scale effect on hover */
+    }
 }
 
 /* Light Mode - Black Icon */
