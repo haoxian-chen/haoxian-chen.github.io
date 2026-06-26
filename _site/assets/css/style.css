@@ -187,6 +187,11 @@ strong { transition: color 0.5s ease; color: var(--strong-color); }
 /* Link Colors with Smooth Transition */
 a { transition: color 0.5s ease; color: var(--link-color); }
 
+/* Blue dashed underline to mark clickable (linked) words in the intro & news */
+.news-text a, section > p a { text-decoration: underline dashed; text-decoration-color: var(--link-color); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+.news-text a:hover, section > p a:hover { text-decoration-style: solid; }
+
 /* Dark Mode Toggle Button */
 #theme-toggle i { font-size: 1.5rem; cursor: pointer; transition: color 0.3s, transform 0.2s; }
 

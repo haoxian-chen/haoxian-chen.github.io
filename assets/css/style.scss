@@ -91,6 +91,20 @@ a {
   color: var(--link-color);
 }
 
+/* Blue dashed underline to mark clickable (linked) words in the intro & news */
+.news-text a,
+section > p a {
+  text-decoration: underline dashed;
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.news-text a:hover,
+section > p a:hover {
+  text-decoration-style: solid;
+}
+
 /* Dark Mode Toggle Button */
 #theme-toggle i {
   font-size: 1.5rem;

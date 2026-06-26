@@ -9,7 +9,7 @@
   </div>
   <div class="news-item">
     <span class="news-date">[May 2026]</span>
-    <span class="news-text">Our paper <strong>Anchored FLoE</strong>, with my team at Amazon, has been accepted to the <strong>ECML PKDD 2026</strong> Industry Track and selected for an <strong>Oral Presentation</strong> (top 5% of submissions)!</span>
+    <span class="news-text">Our paper <a href="https://www.amazon.science/publications/anchored-floe-a-business-guardrailed-ensemble-framework-of-foundation-and-local-trained-models-for-demand-forecasting"><strong>Anchored FLoE</strong></a>, with my team at Amazon, has been accepted to the <strong>ECML PKDD 2026</strong> Industry Track and selected for an <strong>Oral Presentation</strong> (top 5% of submissions)!</span>
   </div>
   <div class="news-item">
     <span class="news-date">[May 2026]</span>
